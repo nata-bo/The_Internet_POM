@@ -1,4 +1,4 @@
-package org.ait.inet.tests;
+package org.ait.hero.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
