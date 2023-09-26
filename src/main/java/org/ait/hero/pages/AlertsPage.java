@@ -33,6 +33,7 @@ public class AlertsPage extends BasePage {
 
         return this;
     }
+
     @FindBy(id = "result")
     WebElement result;
 

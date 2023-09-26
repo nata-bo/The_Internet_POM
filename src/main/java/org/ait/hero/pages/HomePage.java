@@ -31,4 +31,11 @@ public class HomePage extends BasePage{
          click(formLink);
         return new JSExecutor(driver);
     }
+
+    @FindBy(xpath = "//a[.='Broken Images']")
+    WebElement brokenImagesLink;
+    public BrokenImagesPage getBrokenImages() {
+        click(brokenImagesLink);
+        return new BrokenImagesPage(driver);
+    }
 }
