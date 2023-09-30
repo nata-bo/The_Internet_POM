@@ -38,4 +38,18 @@ public class HomePage extends BasePage{
         click(brokenImagesLink);
         return new BrokenImagesPage(driver);
     }
+
+    @FindBy(xpath = "//a[.='Horizontal Slider']")
+    WebElement sliderLink;
+    public HorizontalSliderPage getHorizontalSlider() {
+         click(sliderLink);
+        return new HorizontalSliderPage(driver);
+    }
+
+    @FindBy(xpath = "//a[.='Frames']")
+    WebElement framesLink;
+    public FramesPage getFrames() {
+        click(framesLink);
+        return new FramesPage(driver);
+    }
 }
