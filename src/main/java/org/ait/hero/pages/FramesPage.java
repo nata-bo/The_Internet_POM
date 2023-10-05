@@ -15,14 +15,14 @@ public class FramesPage extends BasePage{
 
     @FindBy(xpath = "//a[.='Nested Frames']")
     WebElement nestedFrames;
-    public FramesPage clickToNestedFrames() {
+    public FramesPage selectToNestedFrames() {
        click(nestedFrames);
         return new FramesPage(driver);
     }
 
     @FindBy(xpath = "//a[.='iFrame']")
     WebElement iFrame;
-    public FramesPage clickToIframe() {
+    public FramesPage selectToIframe() {
         click(iFrame);
         return this;
     }
@@ -43,19 +43,32 @@ public class FramesPage extends BasePage{
 
     @FindBy(xpath = "//frame[@name='frame-top']")
     WebElement frame1;
-//   @FindBy(tagName = "body")
-//   WebElement body;
+
+    @FindBy(tagName = "frame")
+    List<WebElement> frame;
+
 
     public FramesPage handleNestedFrames() {
-        System.out.println("The total numbers of frames in the main page: "+ iframes.size());
+        System.out.println("The total numbers of frames in the main page: "+ frame.size());
         driver.switchTo().frame(frame1);
-        System.out.println("The total numbers of frames in the parent iframe: " +iframes.size());
+        System.out.println("The total numbers of frames in the top frame: " +frame.size());
         driver.switchTo().frame(0);
         WebElement body = driver.findElement(By.tagName("body"));
         System.out.println("Frame is " + body.getText());
-        driver.switchTo().parentFrame();
+        driver.switchTo().defaultContent();
         return this;
     }
+
+    public FramesPage getFrames() {
+        System.out.println(frame.size());
+        driver.switchTo().frame(0);
+        System.out.println(frame.size());
+        driver.switchTo().defaultContent();
+        driver.switchTo().frame(1);
+        System.out.println(frame.size());
+        return this;
+    }
+
 
 
 }

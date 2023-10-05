@@ -13,15 +13,20 @@ public class FramesTests extends TestBase{
     }
 
     @Test
+    public void framesTest(){
+        new FramesPage(driver).selectToNestedFrames()
+                .getFrames();
+    }
+    @Test
     public void handleNestedFramesTest(){
-        new FramesPage(driver).clickToNestedFrames()
+        new FramesPage(driver).selectToNestedFrames()
                 .handleNestedFrames();
 
     }
 
     @Test
     public void iFrameTest(){
-        new FramesPage(driver).clickToIframe()
+        new FramesPage(driver).selectToIframe()
                 .returnListOfFrames()
                 .switchToIframeByIndex(0);
 

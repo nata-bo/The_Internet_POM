@@ -52,4 +52,25 @@ public class HomePage extends BasePage{
         click(framesLink);
         return new FramesPage(driver);
     }
+
+    @FindBy(xpath = "//a[.='Dropdown']")
+    WebElement dropdown;
+    public DropdownPage getDropdown() {
+      click(dropdown);
+        return new DropdownPage(driver);
+    }
+
+    @FindBy(xpath = "//a[.='File Upload']")
+    WebElement fileUpload;
+    public FileUploadPage getFileUpload() {
+       click(fileUpload);
+        return new FileUploadPage(driver);
+    }
+
+    @FindBy(xpath = "//a[.='Checkboxes']")
+    WebElement checkbox;
+    public CheckboxesPage getCheckboxes() {
+        click(checkbox);
+        return new CheckboxesPage(driver);
+    }
 }
