@@ -1,0 +1,10 @@
+org\ait\hero\tests\BrokenImagesTest.class
+org\ait\hero\tests\HorizontalSliderTest.class
+org\ait\hero\tests\AlertTests.class
+org\ait\hero\tests\NewTabTest.class
+org\ait\hero\tests\FileUploadTest.class
+org\ait\hero\tests\FramesTests.class
+org\ait\hero\tests\CheckboxesTest.class
+org\ait\hero\tests\DropdownTest.class
+org\ait\hero\tests\JSExecutorTests.class
+org\ait\hero\tests\TestBase.class
