@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-15T12:40:39 MESZ" name="Quick" finished-at="2023-10-15T12:40:43 MESZ" duration-ms="4305">
+  <suite started-at="2023-10-15T13:37:04 MESZ" name="Quick" finished-at="2023-10-15T13:37:08 MESZ" duration-ms="4277">
     <groups>
     </groups>
-    <test started-at="2023-10-15T12:40:39 MESZ" name="Quick" finished-at="2023-10-15T12:40:43 MESZ" duration-ms="4305">
+    <test started-at="2023-10-15T13:37:04 MESZ" name="Quick" finished-at="2023-10-15T13:37:08 MESZ" duration-ms="4277">
       <class name="org.ait.hero.tests.NewTabTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T12:40:39 MESZ" name="init" finished-at="2023-10-15T12:40:42 MESZ" duration-ms="3504" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T13:37:04 MESZ" name="init" finished-at="2023-10-15T13:37:08 MESZ" duration-ms="3495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="startLogger(java.lang.reflect.Method)[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T12:40:42 MESZ" name="startLogger" finished-at="2023-10-15T12:40:42 MESZ" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startLogger(java.lang.reflect.Method)[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T13:37:08 MESZ" name="startLogger" finished-at="2023-10-15T13:37:08 MESZ" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startLogger -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T12:40:42 MESZ" name="precondition" finished-at="2023-10-15T12:40:43 MESZ" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T13:37:08 MESZ" name="precondition" finished-at="2023-10-15T13:37:08 MESZ" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="switchToNewTabTest()[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T12:40:43 MESZ" name="switchToNewTabTest" finished-at="2023-10-15T12:40:43 MESZ" duration-ms="285" status="PASS">
+        <test-method signature="switchToNewTabTest()[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T13:37:08 MESZ" name="switchToNewTabTest" finished-at="2023-10-15T13:37:08 MESZ" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchToNewTabTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T12:40:43 MESZ" name="tearDown" finished-at="2023-10-15T12:40:43 MESZ" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ait.hero.tests.NewTabTest@2f8dad04]" started-at="2023-10-15T13:37:08 MESZ" name="tearDown" finished-at="2023-10-15T13:37:08 MESZ" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
